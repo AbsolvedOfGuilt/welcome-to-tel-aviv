@@ -23,6 +23,16 @@
 			]
 		}
 	],
+	"AK_762":[
+		{
+			"name": "Al-Qadissiya Tabuk Sniper",
+			"required_attachments":[
+				"al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel",
+				"al_qadissiya_tabuk_sniper_wooden_stock",
+				"veles_chelomo_pso1"
+			]
+		}
+	],
 	"AK_545_Carbine": [
 		{
 			"name": "Kazarov Group AKS-74U",
@@ -163,7 +173,7 @@
 			"required_attachments": [
 				"lowenherz_aug_a1_stg77_1_5x_scoped_receiver",
 				"lowenherz_aug_hbar_620mm_heavy_barrel",
-				"lowenhurz_aug_hbar_folding_bipod"
+				"lowenherz_aug_hbar_folding_bipod"
 			]
 		},
 		{
@@ -171,7 +181,7 @@
 			"required_attachments": [
 				"lowenherz_aug_a3_sa_receiver",
 				"lowenherz_aug_hbar_620mm_heavy_barrel",
-				"lowenhurz_aug_hbar_folding_bipod"
+				"lowenherz_aug_hbar_folding_bipod"
 			]
 		},
 		{
@@ -179,7 +189,7 @@
 			"required_attachments": [
 				"lowenherz_aug_a3_m1_receiver",
 				"lowenherz_aug_hbar_620mm_heavy_barrel",
-				"lowenhurz_aug_hbar_folding_bipod"
+				"lowenherz_aug_hbar_folding_bipod"
 			]
 		}
 	],
@@ -270,11 +280,25 @@
 	"KOSCH": [
 		{
 			"name": "KOSCH KP17",
-			"required_attachments": ["kosch_9x19_114mm_barrel"]
+			"required_attachments": [
+				[
+					"kosch_9x19_114mm_barrel",
+					"vai_9x19_114mm_kosch_match_grade_fluted_barrel",
+					"vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel",
+					"ardian_9x19_127mm_kosch_scramjet_barrel",
+					"krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel"
+				]
+			]
 		},
 		{
 			"name": "KOSCH KP20",
-			"required_attachments": ["kosch_10mm_114mm_barrel"]
+			"required_attachments": [
+				[
+					"kosch_10mm_114mm_barrel",
+					"krn_10mm_117mm_kosch_match_barrel",
+					"krn_10mm_132mm_kosch_match_threaded_barrel"
+				]
+			]
 		}
 	],
 	"M4A1": [
@@ -347,9 +371,32 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
+				"leopard_atg_model_15_fixed_a2_ar15_stock",
+				"hart_a2_pistol_grip",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				],
+				[
+					"pac_free_float_ras_rifle_12inch_handguard",
+					"pac_m5_ras_upper_handguard"
+				]
+			]
+		},
+		{
+			"name": "Hart M16A5",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"hart_a2_pistol_grip",
+				"vyctor_emod_stock",
+				[
+					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
+					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				],
+				[
+					"pac_free_float_ras_rifle_12inch_handguard",
+					"pac_m5_ras_upper_handguard"
 				]
 			]
 		},
@@ -362,10 +409,13 @@
 			]
 		},
 		{
-			"name": "Hart M16A2",
+			"name": "Hart M16A3",
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"leopard_atg_model_15_fixed_a2_ar15_stock",
+				"hart_a2_std_rifle_plastic_handguard",
+				"hart_a2_pistol_grip",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
@@ -450,11 +500,12 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"hart_m4_std_carbine_plastic_handguard",
+				"hart_a2_pistol_grip",
 				[
 					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
 					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
-				],
-				"hart_m4_std_carbine_plastic_handguard"
+				]
 			]
 		},
 		{
@@ -462,11 +513,17 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"leopard_atg_model_15_fixed_a2_ar15_stock",
+				"usgi_m16a1_triangle_handguard",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
 				],
-				"usgi_m16a1_triangle_handguard"
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
+				
 			]
 		},
 		{
@@ -475,7 +532,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"hart_m4a1_5.56x45_267mm_govt_c_barrel",
-				"hart_xm177e1_slim_plastic_handguard"
+				"hart_xm177e1_slim_plastic_handguard",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -484,7 +545,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel",
-				"hart_xm177e2_slim_plastic_handguard"
+				"hart_xm177e2_slim_plastic_handguard",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -493,7 +558,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"hart_607_car15_triangle_7inch_handguard",
-				"hart_607_car15_stock"
+				"hart_607_car15_stock",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -502,6 +571,7 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
+				"hart_a2_std_rifle_plastic_handguard",
 				"diemaco_tri_ad_i_mount",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
@@ -515,6 +585,7 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
+				"hart_m4_std_carbine_plastic_handguard",
 				"diemaco_tri_ad_i_mount",
 				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
 			]
@@ -819,10 +890,118 @@
 			"required_attachments": ["hk_ump9_upper_receiver"]
 		}
 	],
-	"Vector": [
+	"SCALAR": [
 		{
-			"name": "KALIS Scalar Gen II 9mm",
-			"required_attachments": ["kalis_scalar_gen2_early_9x19_upper_receiver"]
+			"name": "KALIS Scalar Gen I .45 ACP",
+			"required_attachments": ["kalis_scalar_gen1_45acp_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II .45 ACP Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_45acp_lower_receiver",
+				"kalis_scalar_gen2_early_45acp_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II .45 ACP Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_45acp_lower_receiver",
+				"kalis_scalar_gen2_late_45acp_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III .45 ACP",
+			"required_attachments": ["kalis_scalar_gen3_45acp_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II 9x19 Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_9x19_lower_receiver",
+				"kalis_scalar_gen2_early_9x19_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II 9x19 Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_9x19_lower_receiver",
+				"kalis_scalar_gen2_late_9x19_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III 9x19",
+			"required_attachments": ["kalis_scalar_gen3_9x19_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II 10mm Auto Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_10mm_lower_receiver",
+				"kalis_scalar_gen2_early_10mm_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II 10mm Auto Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_10mm_lower_receiver",
+				"kalis_scalar_gen2_late_10mm_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III 10mm Auto",
+			"required_attachments": ["kalis_scalar_gen3_10mm_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II .40 S&V Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_40sv_lower_receiver",
+				"kalis_scalar_gen2_early_40sv_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II .40 S&V Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_40sv_lower_receiver",
+				"kalis_scalar_gen2_late_40sv_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III .40 S&V",
+			"required_attachments": ["kalis_scalar_gen3_40sv_lower_receiver"]
+		},
+		{
+			"name":"KALIS Scalar Gen II .45 ACP",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_45acp_lower_receiver",
+					"kalis_scalar_gen2_late_45acp_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II 9x19",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_9x19_lower_receiver",
+					"kalis_scalar_gen2_late_9x19_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II 10mm Auto",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_10mm_lower_receiver",
+					"kalis_scalar_gen2_late_10mm_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II .40 S&V",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_40sv_lower_receiver",
+					"kalis_scalar_gen2_late_40sv_lower_receiver"
+				]
+			]
 		}
 	],
 	"P226": [
