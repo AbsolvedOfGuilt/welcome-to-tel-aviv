@@ -105,6 +105,16 @@
 			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
 		}
 	],
+	"AK308": [
+		{
+			"name": "Kazarov Group AK-308 Gen 1",
+			"required_attachments": ["ak308_gen1_lower_receiver", "ak12_gen1_dustcover"]
+		},
+		{
+			"name": "Kazarov Group AK-308 Gen 2",
+			"required_attachments": ["ak308_gen2_lower_receiver", "ak12_gen2_dustcover"]
+		}
+	],
 	"AUG_A3": [
 		{
 			"name": "Löwenherz AUG A1",
@@ -570,9 +580,11 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
-				"diemaco_c7_ambi_charging_handle",
 				"hart_a2_std_rifle_plastic_handguard",
-				"diemaco_tri_ad_i_mount",
+				[
+					"diemaco_tri_ad_i_mount",
+					"diemaco_c7_ambi_charging_handle"
+				],
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
@@ -584,10 +596,12 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
-				"diemaco_c7_ambi_charging_handle",
 				"hart_m4_std_carbine_plastic_handguard",
-				"diemaco_tri_ad_i_mount",
-				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
+				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel",
+				[
+					"diemaco_tri_ad_i_mount",
+					"diemaco_c7_ambi_charging_handle"
+				],
 			]
 		}
 	],
